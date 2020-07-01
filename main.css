@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB",
+    "Microsoft YaHei", SimSun, sans-serif;
+}
+
+.header {
+  height: 80px;
+  border-bottom: 1px solid #eee;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 9;
+}
+
+.header:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.logo {
+  font-size: 30px;
+  color: #18bc9c;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+.menu {
+  padding: 0px;
+  margin: 0px;
+  margin-top: 40px;
+  margin-right: 40px;
+}
+
+.menu li {
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 10px;
+  /* line-height: 80px; */
+}
+.menu li:last-child {
+  margin-right: 0px;
+}
+.menubox {
+  height: 80px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #18bc9c;
+}
+
+a:visited {
+  color: #18bc9c;
+}
+
+a:hover {
+  /* text-decoration: underline; */
+  color: #096351;
+}
+
+li.active a {
+  border-bottom: 2px solid #18bc9c;
+  padding-bottom: 5px;
+}
+
+.container {
+  max-width: 800px;
+  /* border: 1px solid red; */
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.feeds {
+  min-height: 1200px;
+  padding: 0px;
+}
+
+ul.feeds > li {
+  display: block;
+  border-bottom: 1px dashed #eee;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+  position: relative;
+}
+
+.feed {
+  max-width: 600px;
+  word-wrap: break-word;
+}
+
+.avatar {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.content {
+  color: #6d6b6b;
+}
+
+.actionbar {
+  color: gray;
+  font-size: 12px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+.feed-action {
+  padding: 0px;
+}
+
+.feed-action > li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.feed-action > li a:link {
+  color: gray;
+}
+
+.feed-action > li a:hover {
+  color: #18bc9c;
+}
+
+.footer {
+  right: 0px;
+  bottom: 0px;
+  position: fixed;
+  margin-right: 20px;
+
+  background-color: white;
+
+  height: 60px;
+  width: 180px;
+  border: 1px solid #eee;
+  padding: 5px;
+  padding-left: 10px;
+  color: #ccc;
+  line-height: 60px;
+}
+
+.footer .bottom-avatar {
+  width: 24px;
+  border-radius: 50%;
+}
